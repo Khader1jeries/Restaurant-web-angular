@@ -1,4 +1,4 @@
-# 🧪 Lab1 - Angular Product Catalog App
+# 🧪 Restaurant - Angular Product Catalog App
 
 This is a front-end web application built with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0. It showcases a modular product catalog, user authentication (login/register), and profile handling with Angular best practices.
 
