@@ -1,27 +1,104 @@
-# Lab1
+# 🧪 Lab1 - Angular Product Catalog App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+This is a front-end web application built with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0. It showcases a modular product catalog, user authentication (login/register), and profile handling with Angular best practices.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Development Server
 
-## Code scaffolding
+Run the app locally with:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+ng serve
+```
 
-## Build
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any source files.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 📁 Project Structure
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+src/
+  app/
+    home/               → Home page
+    about/              → About page
+    catalog/            → Product catalog
+    combined-catalog/   → Combined catalog view
+    product-details/    → Product detail page
+    profile/            → User profile section
+      login/            → Login component
+      register/         → Registration component
+      user-details/     → User info
+    model/              → Data models & services
+    navbar/             → Navigation bar
+    footer/             → Footer component
+    notfound/           → 404 Not Found page
+  assets/               → Static assets (images, icons)
+  main.ts               → Application bootstrap
+  styles.css            → Global styles
+  index.html            → Root HTML
+```
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 📦 Build
 
-## Further help
+Run the following command to build the project:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+ng build
+```
+
+The compiled output will be in the `dist/` folder.
+
+---
+
+## ✅ Code Scaffolding
+
+Use Angular CLI to generate components or services:
+
+```bash
+ng generate component component-name
+ng generate service service-name
+```
+
+---
+
+## 🧪 Unit Tests
+
+Run unit tests using Karma:
+
+```bash
+ng test
+```
+
+---
+
+## 🧪 End-to-End Tests
+
+To run e2e tests:
+
+```bash
+ng e2e
+```
+
+You may need to install a package that supports end-to-end testing first.
+
+---
+
+## 🧰 Helpful CLI Commands
+
+Get help on Angular CLI:
+
+```bash
+ng help
+```
+
+Or check out the [Angular CLI Reference](https://angular.dev/tools/cli) for full documentation.
+
+---
+
+## 📜 License
+
+This project is for educational purposes. You may reuse the structure for your own Angular projects.
